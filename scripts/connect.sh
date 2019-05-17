@@ -18,6 +18,8 @@ echo $option
 if [ $option -eq 1 ]; then
         open 'smb://$userme:$passme@SOME_SERVER_HERE/SOME_FOLDER'
 elif [ $option -eq 2 ]; then
+# how to connect with env varaible 
+#ssh -t server_name 'export buildbox=SOME_IP; bash'
         ssh-keygen -R "SOME_SERVER_HERE"
         ssh "SOME_SERVER_HERE:
 fi
