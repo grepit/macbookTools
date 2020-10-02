@@ -11,6 +11,6 @@ Home Brew
 Caffeine
 
 ## useful commands
-# update keychanin password
+### update keychanin password
 
 security default-keychain | xargs security set-keychain-password
