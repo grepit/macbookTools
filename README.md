@@ -37,4 +37,5 @@ function run(input, parameters) {
 	se.keystroke('v',{using: ['command down']});
 
 	return input;
-} ```
+} 
+```
