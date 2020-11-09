@@ -23,18 +23,18 @@ security default-keychain | xargs security set-keychain-password
 ## use automator 
 https://macmost.com/3-ways-to-automate-keystroke-sequences-on-your-mac.html
 
-``function run(input, parameters) {
+```function run(input, parameters) {
 	
 	var se = Application('System Events');
 	se.keystroke('c',{using: ['command down']});
 
 	return input;
-}``
+}```
 
-``function run(input, parameters) {
+```function run(input, parameters) {
 	
 	var se = Application('System Events');
 	se.keystroke('v',{using: ['command down']});
 
 	return input;
-}``
+}```
