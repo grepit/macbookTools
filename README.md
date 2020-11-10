@@ -42,3 +42,12 @@ function run(input, parameters) {
 	return input;
 } 
 ```
+
+how to enable rm command to work
+https://stackoverflow.com/questions/32659348/operation-not-permitted-when-on-root-el-capitan-rootless-disabled
+
+For anyone else having this problem you need to reboot your mac and press ⌘+R when booting up. Then go into Utilities > Terminal and type the following commands:
+```
+csrutil disable
+reboot 
+```
