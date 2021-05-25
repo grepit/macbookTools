@@ -16,6 +16,9 @@ hidutil property --set '{"UserKeyMapping":[{"HIDKeyboardModifierMappingSrc":0x70
 - Caffeine
 
 ## useful commands
+### update password:
+passwd
+
 ### update keychanin password
 
 security default-keychain | xargs security set-keychain-password
