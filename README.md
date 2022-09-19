@@ -53,4 +53,42 @@ For anyone else having this problem you need to reboot your mac and press ⌘+R 
 ```
 csrutil disable
 reboot 
+
+sublime must have packages:
+
+```
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AutoPEP8",
+		"Compare Side-By-Side",
+		"DictionaryAutoComplete",
+		"Jedi - Python autocompletion",
+		"JsFormat",
+		"Package Control",
+		"PowerShell",
+		"Pretty JSON",
+		"Pretty Ruby",
+		"PyRefactor",
+		"Python 3",
+		"RuboCop",
+		"Simple Print Function",
+		"sql-formatter",
+		"SqlBeautifier",
+		"SQLTools",
+		"SublimeLinter",
+		"SublimeLinter Inline Errors",
+		"SublimeLinter-pyflakes",
+		"SublimeLinter-ruby",
+		"Terminus",
+		"TypeScript",
+	],
+}
+
+```
+
 ```
