@@ -53,8 +53,11 @@ For anyone else having this problem you need to reboot your mac and press ⌘+R 
 ```
 csrutil disable
 reboot 
+```
 
 sublime must have packages:
+
+
 
 ```
 {
