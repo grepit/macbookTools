@@ -1,97 +1,15 @@
-### Install on Macbook
-
-iTerm
-
-karabiner oe even better hidutil which comes by default
-# macbook maping F1 key to scroll down and F2 key to scroll up, notice this is only for extral keyboard
-https://developer.apple.com/library/archive/technotes/tn2450/_index.html
-
-```
-hidutil property --set '{"UserKeyMapping":[{"HIDKeyboardModifierMappingSrc":0x70000003A,"HIDKeyboardModifierMappingDst":0x700000051},{"HIDKeyboardModifierMappingSrc":0x70000003B,"HIDKeyboardModifierMappingDst":0x700000052}]}' 
-```
-
-
-- Docker
-- Home Brew
-- Caffeine
-
-## useful commands
-### update password:
-passwd
-
-### update keychanin password
-
-security default-keychain | xargs security set-keychain-password
-
-## to use a single copy and paste instead of command c or command v
-
-## use automator 
-https://macmost.com/3-ways-to-automate-keystroke-sequences-on-your-mac.html
-
-``` 
-function run(input, parameters) {
-	
-	var se = Application('System Events');
-	se.keystroke('c',{using: ['command down']});
-
-	return input;
-}
-
-function run(input, parameters) {
-	
-	var se = Application('System Events');
-	se.keystroke('v',{using: ['command down']});
-
-	return input;
-} 
-```
-
-how to enable rm command to work
-https://stackoverflow.com/questions/32659348/operation-not-permitted-when-on-root-el-capitan-rootless-disabled
-
-For anyone else having this problem you need to reboot your mac and press ⌘+R when booting up. Then go into Utilities > Terminal and type the following commands:
-```
-csrutil disable
-reboot 
-```
-
-sublime must have packages:
+- home brew
+- How to connect mac to linux
+  sudo yum install samba
+  sudo vi /etc/samba/smb.conf
+  sudo service smb start 
+  sudo chkconfig --levels=345 smb on
+  #give it a password 
+  sudo smbpasswd -a aghamoa
+  #to change password
+  sudo smbpasswd -a aghamoa
+  sudo service smb restart
 
 
-
-```
-{
-	"bootstrapped": true,
-	"in_process_packages":
-	[
-	],
-	"installed_packages":
-	[
-		"AutoPEP8",
-		"Compare Side-By-Side",
-		"DictionaryAutoComplete",
-		"Jedi - Python autocompletion",
-		"JsFormat",
-		"Package Control",
-		"PowerShell",
-		"Pretty JSON",
-		"Pretty Ruby",
-		"PyRefactor",
-		"Python 3",
-		"RuboCop",
-		"Simple Print Function",
-		"sql-formatter",
-		"SqlBeautifier",
-		"SQLTools",
-		"SublimeLinter",
-		"SublimeLinter Inline Errors",
-		"SublimeLinter-pyflakes",
-		"SublimeLinter-ruby",
-		"Terminus",
-		"TypeScript",
-	],
-}
-
-```
-
-```
+# from back just run this 
+open 'smb://aghamoa:your_password@dev-dsk-aghamoa-2a-c7a73479.us-west-2.amazon.com'
