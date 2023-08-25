@@ -14,3 +14,6 @@
 # from back just run this 
 open 'smb://aghamoa:your_password@dev-dsk-aghamoa-2a-c7a73479.us-west-2.amazon.com'
 ```
+- How to avoid sleep macbook
+
+[caffeinate](https://ss64.com/osx/caffeinate.html)
