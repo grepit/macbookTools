@@ -21,3 +21,7 @@ open 'smb://aghamoa:your_password@dev-dsk-aghamoa-2a-c7a73479.us-west-2.amazon.c
 - how to reset mouse via terminal to have scroll mouse work
 sudo launchctl stop com.apple.usbd
 sudo launchctl start com.apple.usbd
+
+- wheel mouse driver install
+brew install mac-mouse-fix
+[source](https://github.com/noah-nuebling/mac-mouse-fix?tab=readme-ov-file)
