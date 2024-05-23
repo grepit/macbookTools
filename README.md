@@ -17,3 +17,7 @@ open 'smb://aghamoa:your_password@dev-dsk-aghamoa-2a-c7a73479.us-west-2.amazon.c
 - How to avoid sleep macbook
 
 [caffeinate](https://ss64.com/osx/caffeinate.html)
+
+- how to reset mouse via terminal to have scroll mouse work
+sudo launchctl stop com.apple.usbd
+sudo launchctl start com.apple.usbd
