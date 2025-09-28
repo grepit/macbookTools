@@ -25,3 +25,6 @@ sudo launchctl start com.apple.usbd
 - wheel mouse driver install
 brew install mac-mouse-fix
 [source](https://github.com/noah-nuebling/mac-mouse-fix?tab=readme-ov-file)
+
+-- screenshot app
+lighshot screenshot
