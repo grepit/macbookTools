@@ -15,7 +15,7 @@
 
 # from mac terminal just run this
 ```
-open 'smb://aghamoa:your_password@dev-dsk-aghamoa-2a-c7a73479.us-west-2.amazon.com'
+open 'smb://aghamoa:your_password@your_linux_server'
 ```
 - How to avoid sleep macbook
 
