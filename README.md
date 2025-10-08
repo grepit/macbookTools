@@ -19,8 +19,7 @@ open 'smb://aghamoa:your_password@your_linux_server'
 ```
 - How to avoid sleep macbook
 
-[caffeinate](https://ss64.com/osx/caffeinate.html)
-
+TBD
 - how to reset mouse via terminal to have scroll mouse work
 sudo launchctl stop com.apple.usbd
 sudo launchctl start com.apple.usbd
@@ -30,4 +29,4 @@ brew install mac-mouse-fix
 [source](https://github.com/noah-nuebling/mac-mouse-fix?tab=readme-ov-file)
 
 -- screenshot app
-lighshot screenshot
+[shottr](https://shottr.cc/?utm_source=chatgpt.com) screenshot
