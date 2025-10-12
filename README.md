@@ -47,6 +47,4 @@
    🔗 [Shottr](https://shottr.cc/?utm_source=chatgpt.com)
 
 
----
 
-Would you like me to extend this list with a few **productivity or dev tools** (e.g., VS Code, Docker, Postman, etc.) that most Mac developers install next?
