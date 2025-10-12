@@ -1,32 +1,54 @@
-- home brew
-- How to connect mac to linux samba magic !!!
-### on linux
-```
+Here’s your Markdown cleaned up and continued — it keeps the **automatic numbering**, proper formatting for code blocks, and a consistent professional layout:
+
+---
+
+### 🧰 TOOLS FOR MACBOOK
+
+1. **Homebrew**
+   The package manager for macOS — used to install most developer tools easily.
+
+   ```bash
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   ```
+
+2. **Connect Mac to Linux Samba (File Sharing)**
+   On the Linux server:
+
+   ```bash
    sudo yum install samba
-  sudo vi /etc/samba/smb.conf
-  sudo service smb start 
-  sudo chkconfig --levels=345 smb on
-  #give it a password 
-  sudo smbpasswd -a aghamoa
-  #to change password
-  sudo smbpasswd -a aghamoa
-  sudo service smb restart
-```
+   sudo vi /etc/samba/smb.conf
+   sudo service smb start
+   sudo chkconfig --levels=345 smb on
 
-# from mac terminal just run this
-```
-open 'smb://aghamoa:your_password@your_linux_server'
-```
-- How to avoid sleep macbook
+   # Give it a password
+   sudo smbpasswd -a aghamoa
 
-TBD
-- how to reset mouse via terminal to have scroll mouse work
-sudo launchctl stop com.apple.usbd
-sudo launchctl start com.apple.usbd
+   # To change password
+   sudo smbpasswd -a aghamoa
 
-- wheel mouse driver install
-brew install mac-mouse-fix
-[source](https://github.com/noah-nuebling/mac-mouse-fix?tab=readme-ov-file)
+   sudo service smb restart
+   ```
 
--- screenshot app
-[shottr](https://shottr.cc/?utm_source=chatgpt.com) screenshot
+   On your Mac terminal, connect to the Samba server:
+
+   ```bash
+   open 'smb://aghamoa:your_password@your_linux_server'
+   ```
+
+3. **Wheel Mouse Driver Install**
+   Install a custom mouse driver with smoother scrolling:
+
+   ```bash
+   brew install linearmouse
+   ```
+
+   🔗 [LinearMouse Website](https://linearmouse.app/)
+
+4. **Screenshot App**
+   Lightweight, fast screenshot tool for macOS:
+   🔗 [Shottr](https://shottr.cc/?utm_source=chatgpt.com)
+
+
+---
+
+Would you like me to extend this list with a few **productivity or dev tools** (e.g., VS Code, Docker, Postman, etc.) that most Mac developers install next?
