@@ -1,6 +1,4 @@
-Here’s your Markdown cleaned up and continued — it keeps the **automatic numbering**, proper formatting for code blocks, and a consistent professional layout:
 
----
 
 ### 🧰 TOOLS FOR MACBOOK
 
